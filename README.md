@@ -20,7 +20,7 @@ Installation has been tested in a Linux platform with Python3.6.
 
 # Instructions
 
-There is a demo including preprocessing and model training in ``src/demo.ipynb`` file.
+There is a demo including data preprocessing and model training in ``src/demo.ipynb`` file.
 
 
 ## Preprocessing data for model training
@@ -58,14 +58,14 @@ Options:
 ## Run scGraph model
 
 ```shell
-python scGraph.py -in <inputfile> -out-dir <outputfolder> -bs <batch_sie>
+python scGraph.py -in <inputfile> -out-dir <outputfolder> -bs <batch_size>
 ```
 
 ```
  Arguments:  
   inputfile: preprocessed data for model training (npz format)  
   outputfolder: the folder in which prediction results are saved 
-  batch_sie : batch size for model training
+  batch_size : batch size for model training
 ```
 
 # License
